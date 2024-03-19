@@ -1,0 +1,159 @@
+<html>
+<head>
+<title>TestNG:  ChromeTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>ChromeTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>16/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Mar 19 20:08:04 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>1296 seconds (1296951 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.TC002_Signintest.testsignin()'><b>testsignin</b><br>Test class: test.TC002_Signintest<br>Parameters: ramkumar@gmail.com, Ram, passwordwrong</td>
+<td></td>
+<td>67</td>
+<td>test.TC002_Signintest@6b09fb41</td></tr>
+<tr>
+<td title='test.TC001_Createaccounttest.createaccount_test()'><b>createaccount_test</b><br>Test class: test.TC001_Createaccounttest<br>Parameters: Ram, Kumar, ramkumar@gmail.com, Ramkumar@123, Ramkumar@123, 65439897, phonenumberwrong</td>
+<td></td>
+<td>49</td>
+<td>test.TC001_Createaccounttest@16150369</td></tr>
+<tr>
+<td title='test.TC008_Checkouttest.payment()'><b>payment</b><br>Test class: test.TC008_Checkouttest</td>
+<td></td>
+<td>150</td>
+<td>test.TC008_Checkouttest@6f43c82</td></tr>
+<tr>
+<td title='test.TC001_Createaccounttest.createaccount_test()'><b>createaccount_test</b><br>Test class: test.TC001_Createaccounttest<br>Parameters: Ram, Kumar, ramkumar.com, Ramkumar@123, Ramkumar@123, 6543989784, emailwrong</td>
+<td></td>
+<td>41</td>
+<td>test.TC001_Createaccounttest@16150369</td></tr>
+<tr>
+<td title='test.TC000_Brokenlinktest.urlbroken()'><b>urlbroken</b><br>Test class: test.TC000_Brokenlinktest</td>
+<td></td>
+<td>45</td>
+<td>test.TC000_Brokenlinktest@eadd4fb</td></tr>
+<tr>
+<td title='test.TC001_Createaccounttest.createaccount_test()'><b>createaccount_test</b><br>Test class: test.TC001_Createaccounttest<br>Parameters: Ram, Kumar, ramkumar@gmail.com, Ramkumar@123, Ramkumar@, 6543989784, confirmpasswordwrong</td>
+<td></td>
+<td>40</td>
+<td>test.TC001_Createaccounttest@16150369</td></tr>
+<tr>
+<td title='test.TC002_Signintest.testsignin()'><b>testsignin</b><br>Test class: test.TC002_Signintest<br>Parameters: ramkumar@gmail.com, Ramkumar@123, correct</td>
+<td></td>
+<td>53</td>
+<td>test.TC002_Signintest@6b09fb41</td></tr>
+<tr>
+<td title='test.TC007_Addcartbybrand.addbrandcart()'><b>addbrandcart</b><br>Test class: test.TC007_Addcartbybrand</td>
+<td></td>
+<td>72</td>
+<td>test.TC007_Addcartbybrand@821330f</td></tr>
+<tr>
+<td title='test.TC005_searchaddcart.addcart()'><b>addcart</b><br>Test class: test.TC005_searchaddcart</td>
+<td></td>
+<td>81</td>
+<td>test.TC005_searchaddcart@782859e</td></tr>
+<tr>
+<td title='test.TC002_Signintest.testsignin()'><b>testsignin</b><br>Test class: test.TC002_Signintest<br>Parameters: ramkumar@.com, Ram, wrong</td>
+<td></td>
+<td>65</td>
+<td>test.TC002_Signintest@6b09fb41</td></tr>
+<tr>
+<td title='test.TC001_Createaccounttest.createaccount_test()'><b>createaccount_test</b><br>Test class: test.TC001_Createaccounttest<br>Parameters: Ram, Kumar, ramkumar@gmail.com, Ramkumar, Ramkumar@123, 6543989784, passwordwrong</td>
+<td></td>
+<td>100</td>
+<td>test.TC001_Createaccounttest@16150369</td></tr>
+<tr>
+<td title='test.TC006_Shopdepartaddcart.addcartshop()'><b>addcartshop</b><br>Test class: test.TC006_Shopdepartaddcart</td>
+<td></td>
+<td>71</td>
+<td>test.TC006_Shopdepartaddcart@23f5b5dc</td></tr>
+<tr>
+<td title='test.TC001_Createaccounttest.createaccount_test()'><b>createaccount_test</b><br>Test class: test.TC001_Createaccounttest<br>Parameters: Ram, Kumar, ramkumar@gmail.com, Ramkumar@123, Ramkumar@123, 6543989784, correct</td>
+<td></td>
+<td>49</td>
+<td>test.TC001_Createaccounttest@16150369</td></tr>
+<tr>
+<td title='test.TC003_Menunavigatetest.navigation()'><b>navigation</b><br>Test class: test.TC003_Menunavigatetest</td>
+<td></td>
+<td>191</td>
+<td>test.TC003_Menunavigatetest@624ea235</td></tr>
+<tr>
+<td title='test.TC004_Bottomlinktest.bottomlink()'><b>bottomlink</b><br>Test class: test.TC004_Bottomlinktest</td>
+<td></td>
+<td>35</td>
+<td>test.TC004_Bottomlinktest@3932c79a</td></tr>
+<tr>
+<td title='test.TC002_Signintest.testsignin()'><b>testsignin</b><br>Test class: test.TC002_Signintest<br>Parameters: ramkumar@.com, Ramkumar@123, emailwrong</td>
+<td></td>
+<td>75</td>
+<td>test.TC002_Signintest@6b09fb41</td></tr>
+</table><p>
+</body>
+</html>
